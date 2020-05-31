@@ -1,0 +1,32 @@
+<html>
+<head>topic in comuter architecture 1 </head>
+<body bgcolor="#ff7f50">
+<br />
+<b>This page has links to lecture material and notes about computer architecture.<br /> This is not a syllabus for a standard undergraduate or graduate course in computer architecture.<br /> The topics are appropriate for a seminar on computer architecture.</b><br />
+<br /> <br />
+<font face ="computer" color="#8b008b" size ="10" ><u>There are a few major themes:</u></font>
+<br />
+<ol>
+<table border="1" width="400">
+<tr>
+  <td><li>There is a strong interplay between architecture, operating systems and compiling.<br /> The interrelationships and mutual support determine performance and efficient resource utilitation.<br /> </li>
+   <br/> <br /></td>
+</tr>
+<tr><td>
+<li> Reduced instruction set computers (RISC) offer some unique advantages over complex instruction set computers (CISC).<br /> Many CISCs, however, can be extended through microcode in a write-able control store. Today, I would compare ARM vs. x86 instead of SPARC vs. VAX.<br/> </li>
+<br/> <br /></td></tr>
+<tr><td>
+<li>Synchronous design dominates current commercial machine implementation.<br/> However, self-timed systems and micropipelines are viable, asynchronous alternatives to synchronous timing and a central clock.<br/> </li>
+<br/> <br/></td></tr>
+<tr><td>
+<li>Hardware systems are parallel.<br/> Software design and implementation has not kept up partly due to computer languages that are inherently sequential.<br/> Languages also need to be freed from the sequential von Neumann paradigm.<br/> Functional programming and dataflow architectures are two possible alternatives. Today, I would present Haskell in addition to Backus FP.<br/> </li>
+<br/> <br/></td></tr>
+</table>
+</ol>
+<p> <font face="cc" color ="#7fff00" size="3">My goal</font>, generally, is to teach students to think critically about computer architecture from multiple perspectives.<br/> I also hope to motivate non-von Neumann architectures and languages.<br/> We’ve been stuck in the von Neumann paradigm for too long.<br/> Even von Neumann and Turing considered other approaches before each of these pioneers came to a premature and tragic end.
+
+The table below has links to some rather wordy and dense slides.<br/> The course overview below describes a special, on-site course for M.S. students at Bell Labs in Columbus, Ohio.<br/> </p>
+<img src="coa-tutorial.png" align="right" height="300" width="300" />
+
+</body>
+</html>
